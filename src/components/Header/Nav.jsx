@@ -28,10 +28,13 @@ const Nav = () => {
             <ul className="menu menu-horizontal space-x-4">
               <li><Link to="/" className="hover:text-accent">Home</Link></li>
               <li><Link to="/all-campaigns" className="hover:text-accent">All Campaigns</Link></li>
+               <li><Link to="/find-tutior" className="hover:text-accent">Find Tutors</Link></li>
 
               {user && (
                 <>
-                  <li><Link to="/find-tutior" className="hover:text-accent">Find Tutors</Link></li>
+                 
+                  {/* <li><Link to="/find-tutior" className="hover:text-accent"> Dash board</Link></li> */}
+                  
                   <li><Link to="/add-tutiour" className="hover:text-accent">Add Tutors</Link></li>
                   <li><Link to="/my-booked-tutors" className="hover:text-accent">My Booked Tutors</Link></li>
                   <li><Link to="/my-tutor" className="hover:text-accent">My Added Tutors</Link></li>
